@@ -1,0 +1,118 @@
+/* 
+! apply on all body
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+! apply on all containt
+*/
+.container {
+  /* background-image: url(./assets/image/pexels-maxyne-barcel-10402282\ 1.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/./image/pexels-maxyne-barcel-10402282\ 1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  width: 100vw;
+  background-attachment: fixed;
+  /* border: 5px solid red; */
+}
+
+/* 
+! apply on header content
+*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  /* border: 2px solid red; */
+  padding: 10px 10px;
+  margin: 0px auto;
+}
+
+/* .header .nav {
+  margin-top: 10px;
+} */
+
+.nav .logo {
+  margin-left: 30px;
+}
+.nav .order_button {
+  margin-right: 30px;
+}
+
+/* 
+! apply on options
+*/
+
+.options ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.options ul li a {
+  color: orange;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.order_button button {
+  border: 2px solid orange;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+.order_button button:hover {
+  background-color: orange;
+  transition: 0.5s ease-in-out;
+}
+
+/* 
+! apply on main body content
+*/
+.main_content {
+  display: flex;
+  height: calc(100vh - 30vh);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_content .text {
+  font-size: 7rem;
+  word-wrap: wrap;
+  color: orange;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: capitalize;
+  word-break: keep-all;
+}
+
+/* 
+! apply on footer content
+*/
+.footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.footer .scroll_image img {
+  width: calc(15vw - 8vw);
+}
